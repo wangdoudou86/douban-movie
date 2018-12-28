@@ -3,17 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no,maximum-scale=1.0,minimum-scale=1.0">
     <title>豆瓣电影</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="//at.alicdn.com/t/font_980974_vv1jehfibq.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_980974_fpkgcmsc49l.css">
 
 </head>
 
 <body>
     <main>
-        <section class="top active">
-            <!-- <div class="item">
+        <section class="top">
+            <div class="container">
+                <!-- <div class="item">
                 <a href="#">
                     <div class="cover">
                         <img src="http://img1.doubanio.com/view/photo/s_ratio_poster/public/p1606727862.jpg" alt="封面">
@@ -33,9 +34,24 @@
                     <div class="extra">主演：<span class="cast">柊瑠美、入野自由</span></div>
                 </div>
             </div> -->
+            </div>
+            <div class="loading"><span class="iconfont icon-loading"></span></div>
         </section>
-        <section class="beimei">2</section>
-        <section class="search">3</section>
+        <section class="beimei">
+            <div class="container"></div> 
+        </section>
+        <section class="search">
+            <div class="searchBox">
+                <div class="searchWrapper">
+                    <input type="text" placeholder="搜索电影">
+                    <span class="button">搜索</span>
+                </div>
+                <div class="searchResult">
+                    <div class="container"></div>
+                </div>
+                <!-- <div class="loading"><span class="iconfont icon-loading"></span></div>             -->
+            </div>
+        </section>
     </main>
     <footer>
         <div class="active">
