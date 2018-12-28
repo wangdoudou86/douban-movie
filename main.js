@@ -194,7 +194,7 @@ var search = {
         this.$search.find('.loading').show()
         this.isLoading = true
         $.ajax({
-        url:'http://api.douban.com/v2/movie/search',
+        url:'//api.douban.com/v2/movie/search',
         type:'GET',
         data:{
             q:keyword,
